@@ -33,7 +33,7 @@ public interface Parser {
 
 	public Document getDoc();
 	
-	public String 	getDocFile(final String fileName);
+	public String getDocFile(final String fileName, String charset);
 	
 	public void free();
 }
